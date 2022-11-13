@@ -1,0 +1,259 @@
+.main{
+
+}
+.container{    
+    height: 45px;
+
+}
+.contact{
+    padding: 10px 15px ;
+    border-bottom: 1px solid rgba(135, 151, 174, 0.15);
+     
+}
+.contact__social{
+    margin: auto;
+    display: inline-block;
+}
+.contact__facebook{
+    color : #8797ae; 
+    font-size: 16px; 
+    text-decoration: none;
+    padding: 12px 0 8px ;
+}
+.contact__youtube{
+    color : #8797ae; 
+    font-size: 16px; 
+    text-decoration: none;
+    padding: 12px 2px 8px ;
+
+}
+.contact__facebook:hover{
+    color: #32c5d2;
+}
+.contact__youtube:hover{
+    color: #32c5d2;
+
+}
+.contact__phone{
+    float: right;
+    
+    
+}
+.contact__phone-text{
+    color: #5C6873;
+    font-weight: 400;
+}
+.contact__phone-number{
+    text-decoration: none;
+    color: #8797ae;
+    font-weight: 300;
+}
+.contact__phone-number:hover{
+    color: #32c5d2;
+
+}
+
+
+.nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+.nav__logo{
+    order: 1;
+    display: flex;
+    
+}
+.nav__logo__img{
+    line-height: 100px;
+    
+}
+.nav__logo__img--link{
+    display: inline-block;
+    width: 100px;
+
+
+}
+.navbar{
+    
+}
+.navbar__home{
+    justify-content: flex-end;  
+    order: 3;
+    display: flex;
+    line-height: 100px;
+}
+.navbar__item{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+.navbar__item:hover{
+    background-color: #FAFAFA;
+    color: #32c5d2;
+    cursor: pointer;
+}
+.register{
+    order: 1;
+    display: flex;
+    align-items: center;
+    
+
+}
+.register__login{
+    text-decoration: none;
+    color: #5C6873;
+    margin: 0 15px;
+    padding: 6px 18px;
+    border: 1px solid rgba(47, 53, 59, 0.4);
+    border-radius: 30px;
+
+
+}
+.register__signin{
+    text-decoration: none;
+    color: #5C6873;
+    margin: 0 15px;
+    padding: 6px 18px;
+    border: 1px solid rgba(47, 53, 59, 0.4);
+    border-radius: 30px;
+
+
+}
+.register__login:hover{
+    color: #ffffff;
+    background: #1d2124;
+    border-color: #1d2124;
+}
+.register__signin:hover{
+    color: #ffffff;
+    background: #1d2124;
+    border-color: #1d2124;
+}
+.register__login-logo{
+
+}
+.register__signin-logo{
+    
+
+}
+.register__text{
+    margin-left: 5px;
+
+
+}
+.banner{
+
+
+
+}
+.banner__img--link{
+    max-width: 1200px;
+
+}
+.services{
+    padding: 50px 0;
+
+}
+.services__text{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+
+
+}
+.seperate{
+
+    width: 80px;
+    height: 3px;
+    background: #32c5d2;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.services__items{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.services__item{
+    opacity: 0.8;
+    
+    
+}
+.services__item:hover{
+    opacity: 1;
+}
+.services__item--link{
+    width: 240px;
+
+}
+.content{
+    
+}
+.content__products{
+    
+
+
+}
+.content__products-details{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.content__products-box{
+    margin: 1px;
+    text-decoration: none;
+    height: 389px;
+    max-height: 389px;
+    border:1px solid #cccccc;
+    border-radius: 4px;
+
+
+}
+.content__products-box-img{
+    margin-left: -4px;
+    width: 103%;
+    margin-bottom: 10px;
+
+
+}
+.content__products--contents{
+    display: flex;
+    flex-direction: column;
+}
+.content__products__name{
+    color: #f7b03c;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content__products__quantum{
+    font-size: 15px;
+    color: #5C6873;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+.buy-product{
+    width: 135px;
+    border: 1px solid #fdff10;
+    background-color: #d2160d;
+    height: 34px;
+    color: #fff129;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.footer{
+
+}
